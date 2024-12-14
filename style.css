@@ -1,0 +1,362 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  line-height: 1.4;
+  background-image: url('imagem/Premium\ Vector\ _\ Abstract\ white\ and\ grey\ gradient\ geometric\ shape\ futuristic\ technology\ background.jpeg');
+  /* Caminho para a imagem de fundo */
+  background-size: cover;
+  /* Faz a imagem cobrir a tela */
+  background-position: center;
+  /* Centraliza a imagem */
+  background-repeat: no-repeat;
+  /* Evita a repetição da imagem */
+  background-attachment: fixed;
+  /* Mantém a imagem fixa quando a página rola */
+
+}
+
+header {
+
+  color: rgb(0, 0, 0);
+  padding: px;
+  text-align: center;
+  box-shadow: 2px black;
+}
+
+header h1 {
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+#main-header {
+  box-shadow: 0 4px 8px black;
+}
+
+nav ul {
+  list-style: none;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: rgb(8, 8, 8);
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+section {
+  padding: 40px 20px;
+
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#descri {
+  text-align: center;
+}
+
+#inicio {
+  text-align: center;
+}
+
+.minha-foto {
+  width: 150px;
+  height: 0 auto;
+  box-shadow: 0 4px 8px black;
+}
+
+#descri {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #f3f4f6;
+  /* Mantendo a cor de fundo */
+  border-radius: 10px;
+  /* Bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 50px;
+  border: 1px solid #f3f4f6;
+  /* Suaviza a borda */
+  text-align: justify;
+}
+
+#hobbies {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  /* Fundo base da seção */
+  border-radius: 10px;
+  /* Bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Sombra suave */
+  padding: 20px;
+  margin-top: 50px;
+  border: 1px solid #ffffff;
+}
+
+#hobbies h2 {
+  margin-bottom: 20px;
+  color: #000000;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.lista-hobbies {
+  list-style-type: none;
+  /* Remove os marcadores padrão */
+  padding: 0;
+  margin: 0;
+}
+
+.lista-hobbies li {
+  background-color: #fbfbfb;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #000000;
+  transition: background-color 0.3s ease;
+  /* Transição suave no hover */
+  display: flex;
+  flex-direction: column;
+  /* Permite que o título e a descrição fiquem um abaixo do outro */
+  text-align: center;
+  /* Alinha o texto à esquerda para melhorar a leitura */
+}
+
+
+
+.titulo-hobbies {
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.descricao-resumo {
+  font-size: 16px;
+  color: #000000;
+  line-height: 1.4;
+}
+
+.album {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: center;
+  gap: 20px;
+  /* Espaço entre as imagens */
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.album img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  /* Suaviza a sombra */
+  transition: transform 0.3s ease;
+  /* Adiciona transição suave ao hover */
+}
+
+.album img:hover {
+  transform: scale(1.05);
+  /* Aumenta levemente a imagem ao passar o mouse */
+}
+
+.habilidades-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.habilidades-grid li {
+  background: #f3f4f6;
+  padding: 20px;
+  border-radius: 10px;
+  list-style: none;
+  box-shadow: 0 4px 8px black;
+  border: 1px solid #f3f4f6;
+  transition: transform 0.3s ease; /* Adiciona uma transição suave */
+}
+
+.habilidades-grid li:hover {
+  transform: translateY(-10px); /* Levanta o item ao passar o mouse */
+}
+
+
+#projetos {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #f3f4f6;
+  /* Cor de fundo */
+  border-radius: 10px;
+  /* Bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Sombra suave */
+  padding: 20px;
+  margin-top: 50px;
+  border: 1px solid #ccc;
+  /* Suaviza a borda */
+  text-align: center;
+}
+
+.titulo-projetos {
+
+  font-size: 25px;
+  margin-bottom: 15px;
+  color: #000000;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.texto-projetos {
+  font-size: 18px;
+  padding: 0px 30px;
+  line-height: 1.6;
+  /* Melhora a legibilidade do texto */
+  color: #000000;
+  /* Cor mais suave para o texto */
+  text-align: center;
+  /* Deixa o texto alinhado dos dois lados */
+  margin-bottom: 20px;
+  /* Espaço entre o texto e o botão */
+}
+
+.botao-portifolio {
+  display: inline-block;
+  padding: 10px 25px;
+  /* Ajusta o padding para um botão mais confortável */
+  background-color: #000000;
+  /* Cor de fundo azul */
+  color: #fff;
+  /* Cor do texto */
+  text-decoration: none;
+  /* Remove o sublinhado */
+  border-radius: 5px;
+  /* Bordas arredondadas */
+  font-size: 18px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  /* Transição suave */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* Sombra suave no botão */
+}
+
+.botao-portifolio:hover {
+  background-color: #4acbe2;
+  /* Cor de fundo ao passar o mouse */
+  transform: translateY(-2px);
+  /* Eleva levemente o botão */
+}
+
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  /* Espaçamento entre os ícones */
+}
+
+.social-icon {
+  width: 45px;
+  /* Tamanho do ícone */
+  height: 45px;
+  /* Tamanho do ícone */
+}
+
+.social-links a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: #000000;
+  /* Cor de fundo dos botões */
+  border-radius: 50%;
+  /* Torna os ícones circulares */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.social-links a:hover {
+  background-color: #4acbe2;
+  /* Cor de fundo ao passar o mouse */
+  color: #fff;
+  /* Cor do ícone ao passar o mouse */
+  transform: translateY(-2px);
+}
+
+.contato {
+  background-color: var(--cor-secundaria);
+  color: rgb(0, 0, 0);
+}
+
+.contato-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.grupo-formulario {
+  margin-bottom: 1.5rem;
+}
+
+label {
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+input,
+textarea {
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  padding: 0.75rem;
+  color: rgb(0, 0, 0);
+  width: 100%;
+}
+
+button {
+  background: #4acbe2;
+  color: rgb(0, 0, 0);
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.titulo-contato {
+  color: rgb(3, 3, 3);
+}
+
+footer {
+  background: #f0efef;
+  color: rgb(19, 19, 19);
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}

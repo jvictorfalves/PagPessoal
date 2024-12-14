@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Página pessoal de João Victor Fernandes Alves, desenvolvedor web e estudante de programação.">
+  <title>Página Pessoal Jv</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header id="main-header">
+    <h1>João Victor Fernandes Alves</h1>
+    <p>Desenvolvedor Web | Estudante de Programação</p>
+    <nav>
+      <ul>
+        <!-- Lista de itens do menu -->
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+
+  <section id="inicio">
+    <img src="imagem/foto.jpg" alt="Minha foto" class="minha-foto">
+  </section>
+  <section id="descri">
+    <h2>Sobre</h2>
+    <p>Sou João Victor, tenho 20 anos e sou um estudante apaixonado por tecnologia e desenvolvimento web. Atualmente,
+      estou aprendendo programação e desenvolvimento de sistemas web. Ao longo do meu percurso de estudos, venho
+      adquirindo experiência não só em tecnologias, mas também em boa comunicação e trabalho em equipe, o que me ajuda a
+      colaborar de maneira eficaz em diferentes ambientes.
+      Estou desenvolvendo minhas habilidades técnicas em programação e sempre busco aplicar soluções criativas nos meus
+      projetos. Além disso, sou uma pessoa de fácil adaptação, com ,boas práticas de comunicação, o que facilita as
+      interações com colegas e profissionais, garantindo a entrega de trabalhos de qualidade.</p>
+       <!-- Descrição pessoal -->
+  </section>
+
+  <section id="hobbies">
+    <!-- Seção sobre hobbies -->
+    <h2 class="titulo-livros">Hobbies</h2>
+    <ul class="lista-hobbies">
+      <li>
+        <h3 class="titulo-hobbies">Futevôlei</h3>
+        <p class="descricao-resumo">Ao longo dos anos, descobri minha paixão por jogar futevôlei. A cada partida, sinto
+          uma incrível liberdade, cercado pela energia e risadas dos amigos. Estar na areia, desafiando meus limites e
+          celebrando cada ponto, traz uma alegria contagiante, onde a competição se transforma em companheirismo e as
+          preocupações ficam para trás.</p>
+        <div class="album">
+           <!-- Galeria de imagens -->
+          <img src="imagem/fotosftv3.jpg" alt="futvolei">
+          <img src="imagem/fotosftv2.jpg" alt="foto2">
+          <img src="imagem/fotosftv.jpg" alt="foto3">
+        </div>
+        <h3 class="titulo-hobbies">Academia</h3>
+        <p class="descricao-resumo">Eu gosto de ir à academia , porque me ajuda a cuidar do corpo e da mente. Além de
+          ficar mais forte e ter mais energia, a academia também me ajuda a relaxar e esquecer o estresse do dia a dia.
+          É uma atividade que me faz querer melhorar sempre e manter o foco.</p>
+        <div class="album">
+          <img src="imagem/academia.jpeg" alt="academia">
+          <img src="imagem/academia.jpegg.jpg" alt="foto2">
+          <img src="imagem/academia.jpg" alt="foto3">
+        </div>
+
+    </ul>
+  </section>
+
+  <section id="habilidades"> 
+    <!-- Seção de habilidades -->
+    <h2>Minhas Habilidades</h2>
+    <ul class="habilidades-grid">
+      <li>
+        <h3>Desenvolvimento Front-End</h3>
+        <p>HTML , CSS, JavaScript </p>
+      </li>
+      <li>
+        <h3>Desenvolvimento Back-End</h3>
+        <p>Java , JavaScript</p>
+      </li>
+      <li>
+        <h3>Banco de Dados</h3>
+        <p>MySQL , MariaDB</p>
+      </li>
+      <li>
+        <h3>Ferramentas</h3>
+        <p>Git , VSCode</p>
+      </li>
+    </ul>
+  </section>
+
+  <section id="projetos">
+    <!-- Seção de projetos -->
+    <h2 class="titulo-projetos">Projetos</h2>
+    <p class="texto-projetos">
+      Ficou interessado em conhecer meus projetos?<br>
+      Confira meu portfólio e veja algumas das soluções que já desenvolvi,
+      desde aplicações web até sistemas complexos. Cada projeto é uma
+      oportunidade de mostrar minha dedicação e paixão pela tecnologia. Confira e inspire-se!
+    </p>
+    <a href="https://jvictorfalves.github.io/projportfolio/" target="_blank" class="botao-portifolio">Visite Meu Portfólio</a>
+
+  </section>
+  <section id="contato">
+     <!-- Seção de contato -->
+    <h2>Entre em Contato Comigo</h2>
+    <div class="social-links">
+      <a href="https://www.instagram.com/jvictorfalves" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+
+      <a href="https://wa.me/+5564999188890" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+
+      <a href="https://www.linkedin.com/feed/" target="_blank">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+  </section>
+
+  <section id="contato" class="contato fade-in">
+    <!-- Formulário de contato -->
+    <h2 class="titulo-contato"> Entre em Contato !</h2>
+    <form class="contato-form">
+      <div class="grupo-formulario">
+        <label for="Nome"> Nome </label>
+        <input id="nome" name="nome" required>
+      </div>
+      <div class="grupo-formulario">
+        <label for="email"> Email </label>
+        <input id="email" name="email" required>
+      </div>
+      <div class="grupo-formulario">
+        <label for="mensagem"> Mensagem </label>
+        <textarea id="mensagem " name="mensagem" required></textarea>
+      </div>
+      <button type="submit">Mandar mensagem</button>
+    </form>
+  </section>
+</main>
+
+  <footer id="main-footer">
+    <!-- Rodapé -->
+    <p>&copy; 2024 João Victor Fernandes Alves. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script> 
+  <!-- Importa o arquivo JavaScript -->
+
+</html>
